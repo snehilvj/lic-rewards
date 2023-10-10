@@ -70,8 +70,8 @@ export default function App() {
 
   return (
     <MantineProvider theme={theme}>
-      <Container p={50}>
-        <Text size="30" lh={1.6}>
+      <Container p={20}>
+        <Text size="xl" lh={1.6}>
           {texts.title}
         </Text>
         <NumberInput
@@ -81,7 +81,7 @@ export default function App() {
           value={val}
           hideControls
           onChange={setVal}
-          py={50}
+          py={30}
         />
         <Stack>
           {tyohaarReward ? (
