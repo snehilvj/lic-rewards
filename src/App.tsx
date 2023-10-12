@@ -109,16 +109,16 @@ export default function App() {
               />
             </Paper>
           ) : null}
-          {luckyDraw ? (
-            <Stack>
-              <Center>+</Center>
-              <Reward text={texts.toppers} value={texts.luckyDraw} />
-            </Stack>
-          ) : null}
           {partyReward ? (
             <Stack>
               <Center>+</Center>
               <Reward text={texts.party} value={partyReward} />
+            </Stack>
+          ) : null}
+          {luckyDraw ? (
+            <Stack>
+              <Center>+</Center>
+              <Reward text={texts.toppers} value={texts.luckyDraw} />
             </Stack>
           ) : null}
           {royal ? (
