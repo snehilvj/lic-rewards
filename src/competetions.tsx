@@ -43,3 +43,7 @@ export const GrandParty = (amount: number) => {
     return null;
   }
 };
+
+export const RoyalEnfield = (amount: number) => {
+  return amount >= 1e5;
+};
